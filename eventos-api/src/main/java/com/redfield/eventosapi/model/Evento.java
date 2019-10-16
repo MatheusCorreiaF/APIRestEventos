@@ -77,14 +77,6 @@ public class Evento implements Serializable {
 	public void setData(String data) {
 		this.data = data;
 	}
-
-	public List<Convidado> getConvidados() {
-		return convidados;
-	}
-
-	public void setConvidados(List<Convidado> convidados) {
-		this.convidados = convidados;
-	}
 	
 	
 }
